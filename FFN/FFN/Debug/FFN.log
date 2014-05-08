@@ -1,0 +1,49 @@
+﻿Build started 25.12.2013 15:04:58.
+     1>Project "C:\OpenCV\FFN\FFN\FFN.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:/OpenCV/opencv/build/x64/vc11\..\..\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FFN.cpp main.cpp
+         main.cpp
+         FFN.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\OpenCV\FFN\Debug\FFN.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:/OpenCV/opencv/build/x64/vc11\lib opencv_core247d.lib opencv_imgproc247d.lib opencv_highgui247d.lib opencv_ml247d.lib opencv_video247d.lib opencv_features2d247d.lib opencv_calib3d247d.lib opencv_objdetect247d.lib opencv_contrib247d.lib opencv_legacy247d.lib opencv_flann247d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\OpenCV\FFN\Debug\FFN.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\OpenCV\FFN\Debug\FFN.lib" /MACHINE:X86 Debug\FFN.obj
+         Debug\main.obj
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual class cv::Mat __thiscall cv::_InputArray::getMat(int)const " (?getMat@_InputArray@cv@@UBE?AVMat@2@H@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual class cv::Mat __thiscall cv::_InputArray::getMat(int)const " (?getMat@_InputArray@cv@@UBE?AVMat@2@H@Z)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall cv::_InputArray::getMatVector(class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > &)const " (?getMatVector@_InputArray@cv@@UBEXAAV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall cv::_InputArray::getMatVector(class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > &)const " (?getMatVector@_InputArray@cv@@UBEXAAV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@@Z)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual class cv::GlBuffer __thiscall cv::_InputArray::getGlBuffer(void)const " (?getGlBuffer@_InputArray@cv@@UBE?AVGlBuffer@2@XZ)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual class cv::GlBuffer __thiscall cv::_InputArray::getGlBuffer(void)const " (?getGlBuffer@_InputArray@cv@@UBE?AVGlBuffer@2@XZ)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual class cv::GlTexture __thiscall cv::_InputArray::getGlTexture(void)const " (?getGlTexture@_InputArray@cv@@UBE?AVGlTexture@2@XZ)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual class cv::GlTexture __thiscall cv::_InputArray::getGlTexture(void)const " (?getGlTexture@_InputArray@cv@@UBE?AVGlTexture@2@XZ)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual class cv::gpu::GpuMat __thiscall cv::_InputArray::getGpuMat(void)const " (?getGpuMat@_InputArray@cv@@UBE?AVGpuMat@gpu@2@XZ)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual class cv::gpu::GpuMat __thiscall cv::_InputArray::getGpuMat(void)const " (?getGpuMat@_InputArray@cv@@UBE?AVGpuMat@gpu@2@XZ)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall cv::_InputArray::kind(void)const " (?kind@_InputArray@cv@@UBEHXZ)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall cv::_InputArray::kind(void)const " (?kind@_InputArray@cv@@UBEHXZ)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual class cv::Size_<int> __thiscall cv::_InputArray::size(int)const " (?size@_InputArray@cv@@UBE?AV?$Size_@H@2@H@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual class cv::Size_<int> __thiscall cv::_InputArray::size(int)const " (?size@_InputArray@cv@@UBE?AV?$Size_@H@2@H@Z)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual unsigned int __thiscall cv::_InputArray::total(int)const " (?total@_InputArray@cv@@UBEIH@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual unsigned int __thiscall cv::_InputArray::total(int)const " (?total@_InputArray@cv@@UBEIH@Z)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall cv::_InputArray::type(int)const " (?type@_InputArray@cv@@UBEHH@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall cv::_InputArray::type(int)const " (?type@_InputArray@cv@@UBEHH@Z)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall cv::_InputArray::depth(int)const " (?depth@_InputArray@cv@@UBEHH@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall cv::_InputArray::depth(int)const " (?depth@_InputArray@cv@@UBEHH@Z)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall cv::_InputArray::channels(int)const " (?channels@_InputArray@cv@@UBEHH@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall cv::_InputArray::channels(int)const " (?channels@_InputArray@cv@@UBEHH@Z)
+     1>FFN.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall cv::_InputArray::empty(void)const " (?empty@_InputArray@cv@@UBE_NXZ)
+     1>main.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall cv::_InputArray::empty(void)const " (?empty@_InputArray@cv@@UBE_NXZ)
+     1>FFN.obj : error LNK2019: unresolved external symbol "class cv::_OutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAABV_OutputArray@1@XZ) referenced in function "private: void __thiscall FFN::forward_pass(class std::vector<double,class std::allocator<double> >)" (?forward_pass@FFN@@AAEXV?$vector@NV?$allocator@N@std@@@std@@@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "class cv::_OutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAABV_OutputArray@1@XZ)
+     1>FFN.obj : error LNK2019: unresolved external symbol "public: class cv::Mat & __thiscall cv::Mat::setTo(class cv::_InputArray const &,class cv::_InputArray const &)" (?setTo@Mat@cv@@QAEAAV12@ABV_InputArray@2@0@Z) referenced in function "private: void __thiscall FFN::forward_pass(class std::vector<double,class std::allocator<double> >)" (?forward_pass@FFN@@AAEXV?$vector@NV?$allocator@N@std@@@std@@@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "public: class cv::Mat & __thiscall cv::Mat::setTo(class cv::_InputArray const &,class cv::_InputArray const &)" (?setTo@Mat@cv@@QAEAAV12@ABV_InputArray@2@0@Z)
+     1>main.obj : error LNK2019: unresolved external symbol "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z) referenced in function "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ)
+     1>main.obj : error LNK2019: unresolved external symbol "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z) referenced in function "public: void __thiscall cv::Mat::create(int,int,int)" (?create@Mat@cv@@QAEXHHH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ) referenced in function "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@YAHPAHH@Z) referenced in function "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol "public: static class cv::Formatter const * __cdecl cv::Formatter::get(char const *)" (?get@Formatter@cv@@SAPBV12@PBD@Z) referenced in function "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl cv::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class cv::Mat const &)" (??6cv@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV12@ABVMat@0@@Z)
+     1>C:\OpenCV\FFN\Debug\FFN.exe : fatal error LNK1120: 19 unresolved externals
+     1>Done Building Project "C:\OpenCV\FFN\FFN\FFN.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.42
